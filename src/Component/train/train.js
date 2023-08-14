@@ -8,7 +8,6 @@ import {Routes, Route, useNavigate,Link} from 'react-router-dom';
 const Train = () => {
     const [traind, settraindet] = useState([]);
     const [traino, setrainno] = useState('');
-    const navigate = useNavigate();
     
     const headers = { 'Authorization': `Bearer ${'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIwMzA4NjYsImNvbXBhbnlOYW1lIjoiQ0EwMzAgQ2VudHJhbCIsImNsaWVudElEIjoiZjA2Yzc5ZTAtM2NhNi00OWIzLTlhMDMtMTMyYzY4OGI1Yzg1Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwQlRSQ0EwMzAifQ.WN-W9YQqa_F7YlzANrl1luQtPZ-R2JmPZqzKHcnxKh0'}` };
     const getthedata = () => {

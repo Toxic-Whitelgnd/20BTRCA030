@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 export default function Specifictrain(props) {
     const locat = useLocation();
-    console.log("from sp" + props);
+    console.log("from sp"+ props);
     const data = locat.state?.data;
     const [sptrain, setsptrain] = useState([]);
     useEffect(() => {
