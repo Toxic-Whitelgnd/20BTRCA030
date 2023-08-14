@@ -10,7 +10,7 @@ const Train = () => {
     const [traino, setrainno] = useState('');
     const navigate = useNavigate();
     
-    const headers = { 'Authorization': `Bearer ${'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIwMzAzNTIsImNvbXBhbnlOYW1lIjoiQ0EwMzAgQ2VudHJhbCIsImNsaWVudElEIjoiZjA2Yzc5ZTAtM2NhNi00OWIzLTlhMDMtMTMyYzY4OGI1Yzg1Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwQlRSQ0EwMzAifQ.fhXGX4lLTHUfPD7SLdq5A7ZGQwtrsZJ7SkXKzvoUgNQ'}` };
+    const headers = { 'Authorization': `Bearer ${'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTIwMzA4NjYsImNvbXBhbnlOYW1lIjoiQ0EwMzAgQ2VudHJhbCIsImNsaWVudElEIjoiZjA2Yzc5ZTAtM2NhNi00OWIzLTlhMDMtMTMyYzY4OGI1Yzg1Iiwib3duZXJOYW1lIjoiIiwib3duZXJFbWFpbCI6IiIsInJvbGxObyI6IjIwQlRSQ0EwMzAifQ.WN-W9YQqa_F7YlzANrl1luQtPZ-R2JmPZqzKHcnxKh0'}` };
     const getthedata = () => {
         axios.get(
             'http://20.244.56.144:80/train/trains',
